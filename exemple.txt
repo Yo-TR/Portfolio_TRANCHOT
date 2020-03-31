@@ -1,0 +1,11 @@
+https://themes.startbootstrap.com/sb-admin-pro/
+
+WYSIWYG éditeur de text
+
+template_backoffice: https://vinceg.github.io/Bootstrap-Admin-Theme/index.html
+
+commande export bdd: http://www.informatix.fr/tutoriels/base-de-donnees/sauvegarder-automatiquement-une-base-de-donnees-mysql-69
+
+WYSIWYG Editors: https://summernote.org/
+
+cdn fontawesome: https://cdnjs.com/libraries/font-awesome

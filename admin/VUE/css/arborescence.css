@@ -1,0 +1,10 @@
+table tbody tr:hover td, .table tbody tr:hover th{
+	transition: all 0.2s;
+	background-color: #343a40;
+	color: white;
+}
+
+table tbody a:hover {
+	transition: all 0.2s;
+	color: white;
+}

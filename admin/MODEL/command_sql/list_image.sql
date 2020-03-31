@@ -1,0 +1,10 @@
+INSERT INTO projets (Type_media,Chemin_img,adresse_projet,Titre,Domaine) VALUES ('img','Programation/carrousel.jpg','','carrousel','Programation');
+INSERT INTO projets (Type_media,Chemin_img,adresse_projet,Titre) VALUES ('img','/visiteur/VUE/image/film_metier.png','','film_metier');
+INSERT INTO projets (Type_media,Chemin_img,adresse_projet,Titre) VALUES ('img','/visiteur/VUE/image/flag-for-guadeloupe_1f1ec-1f1f5.png','','flag');
+INSERT INTO projets (Type_media,Chemin_img,adresse_projet,Titre,Domaine) VALUES ('img','Programation/souris.jpg','','souris','Programation');
+INSERT INTO projets (Type_media,Chemin_img,adresse_projet,Titre,Domaine) VALUES ('img','Programation/teammeca.jpg','','teammeca','Programation');
+INSERT INTO projets (Type_media,Chemin_img,adresse_projet,Titre,Domaine) VALUES ('img','Programation/tower defense.jpg','','tower','Programation');
+INSERT INTO projets (Type_media,Chemin_img,adresse_projet,Titre) VALUES ('img','/visiteur/VUE/image/y.png','','y');
+INSERT INTO projets (Type_media,Chemin_img,adresse_projet,Titre) VALUES ('img','/visiteur/VUE/image/yoann.png','','yoann');
+INSERT INTO projets (Type_media,Chemin_img,adresse_projet,Titre,Domaine) VALUES ('img','Audiovisuel/film_metier.png','6X4rqUCNH3o','Le chef de projet - ITW','Audiovisuel');
+INSERT INTO projets (Type_media,Chemin_img,adresse_projet,Titre,Domaine) VALUES ('img','Audiovisuel/film_metier.png','UuLsSFWqLc4','CDP - Motion','Audiovisuel');

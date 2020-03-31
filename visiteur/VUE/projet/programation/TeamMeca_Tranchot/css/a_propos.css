@@ -1,0 +1,22 @@
+.navbar{
+	margin-bottom: 5%;
+	box-shadow: 0px 0px 15px grey;
+}
+
+section .container{
+	padding: 0 0 5% 0;
+}
+
+section h1{
+	margin: 5% 0 5% 0;
+	color:  #1D0566;
+	font-weight: bold;
+}
+section h2{
+	margin: 5% 0 5% 0;
+	color:  #1D0566;
+	font-weight: bold;
+}
+.item2{
+	background-color: #FAFAFA;
+}

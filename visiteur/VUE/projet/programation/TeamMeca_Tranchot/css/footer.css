@@ -1,0 +1,29 @@
+footer{
+	background-color: #E4E4E4;
+	color: black;
+}
+footer li{
+	list-style-type: none;
+}
+footer a{
+	color: black;
+}
+
+footer a:hover{
+	color: #E94615;
+}
+footer>.container>.row{
+	padding: 2.5% 0 0 0;
+}
+#bottom{
+	background-color: #CACACA;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+#bottom li{
+	height: 7.5vh;
+}
+
+
+
+

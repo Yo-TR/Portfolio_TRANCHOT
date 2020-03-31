@@ -1,0 +1,64 @@
+*{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.navbar-modif{
+  background-color: #000;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+	transition: all 0.5s
+}
+a:hover{	
+  color: #f3663f;
+}
+
+body{
+	padding-top: 4rem;
+	margin-bottom: 2rem;
+	height: 100%;
+	background-color: #f9f9fc;
+	list-style-type: none;
+}
+h1{
+	color: #f3663f;
+}
+.col-md-1{
+	background: #1C7AFF;
+}
+.li{
+	justify-content: space-around;
+}
+.col-md-11{
+	background-color: #071E40 ;
+}
+ #particles-js{
+  position: fixed;
+  width: 100%;
+  height: auto;
+}
+
+.navbar-btm{
+	background-color: #DCDCDC;	
+    color: black;
+    font-size: 9pt;
+    text-align: center;
+}
+
+.navbar-btm a{
+	color: #007bff;
+}
+
+.btn-color{
+  background-color: #f3663f;
+    color: white;
+}
+    @media screen and (max-width: 768px) {
+  *{
+	font-size: 1.1rem;
+}
+ 
+
+}

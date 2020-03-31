@@ -1,0 +1,60 @@
+.section li{
+  list-style-type: none;
+  margin: 5% 0 5% 0;
+}
+.section{margin-top: 2.5%;}
+
+.item h1{margin-bottom: 10vh;
+    font-size: 5vw;
+    line-height: 1.0625;
+    font-weight: 700;
+    letter-spacing: -.009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.skillamount {
+  content: '';
+    width: 0%; 
+    height: 100%;
+    background-color: #f3663f;
+    left: 0;
+    transition: all 1s ease-out;
+    position: absolute;
+    z-index: 1;
+}
+
+.skillline {
+  content: '';
+  background-color: #000;
+  width: 100%;
+  background: transparent;
+  position: relative;
+  height: 10px;
+}
+.skillline:after {
+  content: '';
+  position: absolute;
+  background-color: #000;
+  width: 100%; 
+  top: 4px;
+  height: 2px;
+}
+ #particles-js{
+  position: fixed;
+  width: 100%;
+  height: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+  .item h1 {
+    font-size: 10vw;
+  }
+ body{
+  padding-top: 4.5rem;
+} 
+.section { 
+    margin-bottom: 10%;
+  }
+
+}

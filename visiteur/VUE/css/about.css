@@ -1,0 +1,136 @@
+	body {
+  padding-top: 0rem;
+}
+
+  #left{
+    align-items: center;
+  }
+	#right{background-color: #f3663f;}
+  .section p{
+    padding-top: 10vh;
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 20%;
+  }
+
+  .section h1{
+    color: white;
+    padding-top: 10vh;  
+    font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 700;
+    letter-spacing: -.009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+	#right:before{
+    content: '';position: absolute;
+    border-right: 300px solid #f3663f;
+    border-top: 100vh solid transparent;
+    left:-300px;}
+
+  .container-fluid{height: 100vh;}
+
+  .container-fluid .row{height: 100vh;}
+
+   #moi img{
+      height: 30vw;
+      position: absolute;
+     animation-duration: 2.5s;
+     animation-name: slidein;
+    }
+    #flag img{
+      height: 9vw;
+    }
+     #particles-js{
+  position: fixed;
+  width: 100%;
+  height: auto;
+}
+
+
+@keyframes slidein {
+  from {
+    position: fixed;
+  }
+   0% {
+    height: 35vw;
+  }
+
+  10%{
+    height: 35vw;
+  }
+
+  to {
+    position: fixed;
+  }
+}
+  @media screen and (max-width: 576px){
+
+    #moi img{
+      height: 80vw;
+    }
+
+.section p{position: static;}
+#moi img{
+      position: static;
+    }
+
+    @keyframes slidein {
+ from {
+    position: absolute;
+  }
+   0% {
+    height: 85vw;
+  }
+
+  10%{
+    height: 85vw;
+  }
+
+  to {
+    position: static;
+  }
+}
+
+  }
+
+  @media screen and (min-width: 577px) and (max-width: 992px){
+    #moi img{
+      height: 60vw;
+    }
+
+.section p{position: static;}
+#moi img{
+      position: static;
+    }
+
+      .section p{
+    padding-top: 15vh;
+  }
+
+  .section h1{
+    padding-top: 15vh;
+}
+
+ body{
+  padding-top: 4.5rem;
+} 
+
+
+        @keyframes slidein {
+  from {
+    position: static;
+  }
+   0% {
+    height: 65vw;
+  }
+
+  10%{
+    height: 65vw;
+  }
+
+  to {
+    position: static;
+  }
+
+  }

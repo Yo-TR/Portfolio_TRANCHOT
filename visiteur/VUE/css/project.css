@@ -1,0 +1,48 @@
+body{
+  height: 100%
+}
+
+#particles-js {
+  background-color: black;
+}
+
+.section{
+  position: absolute;
+}
+
+.section a {
+  font-size: 5rem;
+  transition: all 0.5s;
+  font-weight: bold;
+  color: black;
+  -webkit-text-stroke: 2px white;
+}
+
+.section a:hover {
+  transform: scale(1.3);
+  -webkit-text-stroke: 2px white;
+  color: white;
+  text-decoration: none;
+  
+}
+
+.titre{
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+  @media screen and (max-width: 720px) {
+   .section a{
+    font-size: 200%;
+   }
+
+   .section a:hover {
+  transform: scale(1);
+  color: black;
+  
+}
+
+}
+

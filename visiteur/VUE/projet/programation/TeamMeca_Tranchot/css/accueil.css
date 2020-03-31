@@ -1,0 +1,53 @@
+.navbar{
+	position: absolute;
+	width: 100%;
+}
+ #menu{
+	visibility: collapse;
+}
+
+section li{
+	list-style-type: none;
+}
+section h1{
+	margin: 5% 0 5% 0;
+	color:  #1D0566;
+	font-weight: bold;
+}
+section h2{
+	margin: 5% 0 5% 0;
+	color:  #1D0566;
+	font-weight: bold;
+}
+section .row{
+	margin-bottom: 10%;
+}
+#more{
+	margin-top: 5%;
+	height: 50px;
+	padding: 0 50px 0 50px;
+	background-color: #E94615;
+	color: white;
+	border-radius: 30px;
+	border: solid 2px #E94615;
+	text-decoration: none;
+	transition: 0.3s;
+}
+#more:hover{
+	background-color: white;
+	color:#E94615;
+}
+
+    @media screen and (max-width: 768px) {
+  #menu{
+	visibility: visible;
+}
+
+#menu2{
+	/* visibility: collapse; */
+	display: none;
+}
+.navbar{
+	position: static;
+}
+}

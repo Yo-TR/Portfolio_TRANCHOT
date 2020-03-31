@@ -1,0 +1,62 @@
+    <div class="container-fluid section">
+    <h1 class="offset-md-1">ME CONTACTER</h1>
+    <div class="row ">
+        <div id="left" class="col-10 offset-1 col-lg item order-last order-lg-first">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-2">
+                    <form action="index.php?page=contact" method="post">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="name">Nom</label>
+      <input type="text" class="form-control" id="inputName" placeholder="Nom" name="nom">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="fnames">Prénom</label>
+      <input type="text" class="form-control" id="inputFirstname" placeholder="Prénom" name="firstname">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail4">Email</label>
+      <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="3" style="height: 450px" placeholder="Message..."></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Envoyer</button>
+</form>
+                </div>
+            </div>
+        </div>
+
+        <div id="right" class="col-lg col-10 offset-1 item order-first order-lg-last">
+      
+            <h3>Téléphone</h3>
+            <li><a href="tel:+33769383790">Tel: 07 69 38 37 90</a></li>
+            <h3>E-mail</h3>
+            <li><a href="mailto:team.meca@outlook.com">Mail: team.meca@outlook.com</a></li> 
+      <h3>Adresse</h3>
+      <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2609.047148238241!2d2.2562542!3d49.1617133!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e65a8aeb6ccae3%3A0x98d2612602576328!2s104+Rue+des+Tilleuls%2C+60230+Chambly!5e0!3m2!1sfr!2sfr!4v1561756054452!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>       
+        </div>
+    </div>
+    </div>
+  <?php
+     if (isset($_POST['message'])) {
+        $position_arobase = strpos($_POST['email'], '@');
+        if($position_arobase === false)
+            echo '<script language="JavaScript" type="text/JavaScript">
+alert("Votre email doit comporter un arobase.");
+</script>';
+        else {
+            $retour = mail('ytranchot@gmail.com','Envoyez depuis le site yoann-tranchot','Nom:'.$_POST['nom']."\r\n".'Prénom:'.$_POST['firstname']."\r\n".'E-mail:'.$_POST['email']."\r\n".$_POST['message'],'From:'.$_POST['email']."Content-type: text/html; charset= utf8");
+            if($retour)
+                echo '<script language="JavaScript" type="text/JavaScript">
+alert("Votre message a été envoyé");
+</script>';
+            else
+                echo '<script language="JavaScript" type="text/JavaScript">
+alert("Erreur");
+</script>';
+        }
+    }
+    ?>

@@ -1,0 +1,54 @@
+  #link{
+    display: none;
+  }
+.btn-color{
+  background-color: #f3663f;
+    color: white;
+}
+
+
+  .btn-color:hover {
+    color:#f3663f ;
+    background-color:white;
+     }
+
+  .section #nom {
+  	color: #f3663f;
+  	font-size: 7vw;
+    font-weight: 700;
+    letter-spacing: -.009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-left: 15px;
+  }
+	#text{font-size: 2vw;
+		font-weight: 700;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
+  #nom{
+    display: none;
+  }
+  #menu{
+     display: none;
+  }
+
+
+
+  @media screen and (max-width: 992px) {
+  #text{text-align: center;}
+  .section #nom {
+    font-size: 7vw;
+    margin-left: 5px;
+  } 
+}
+
+  @media screen and (max-width: 576px) {
+  #text{text-align: center;}
+  .section #nom {
+    font-size: 2.3rem;
+  }
+   body{
+  padding-top: 4.5rem;
+}  
+}
