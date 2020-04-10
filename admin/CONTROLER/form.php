@@ -32,7 +32,7 @@
 			$x= $this->_dataForm;
 			//var_dump($x);
 			//var_dump($_POST);
-			$y= "/visiteur/VUE/php/article_projet/";
+			$y= "/visiteur/VUE/php/create/";
 			if (array_key_exists('Domaine',$x) && isset($_FILES)) {
 				$this->uploadFile($x['Domaine']);
 			}if (array_key_exists('summernote',$x)) {
